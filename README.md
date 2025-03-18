@@ -10,7 +10,7 @@ If you find any problem, please feel free to contact with taohanqiao19@nudt.edu.
 
 **References**
 
-[1] Tao, H, et al. Flight test scheduling: A generic model, lower bounds, and iterated local search (under review).
+[1] Tao, H., et al. Flight test scheduling: A generic model, lower bounds, and iterated local search (under review).
 
 [2] Pereira, J. (2016). Procedures for the bin packing problem with precedence constraints. European Journal of Operational Research, 250, 794–806.
 
