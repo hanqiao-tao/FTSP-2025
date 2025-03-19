@@ -2,7 +2,7 @@ This repository includes the source codes, test instances, and computational res
 
 We thank Prof. Jordi Pereira for kindly providing us with the source code developed in one of his works[2].
 
-We also use benchmark instances for simple assembly line balancing of type 1 (SALBP-1) introduced in [3] and [4].
+We also use benchmark instances for simple assembly line balancing problem of type 1 (SALBP-1) introduced in [3] and [4].
 
 The proposed algorithms are coded in C++ and run in a single thread. All MIP formulations are solved with CPLEX 20.1.0 implemented in the C++ programming language, using Concert Technology. The CPLEX solver is set to use only one thread, with all other parameters set to their default values.
 
