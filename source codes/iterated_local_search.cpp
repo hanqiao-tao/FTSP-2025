@@ -569,23 +569,39 @@ void Pert()
                             break;
                         }
                     }
-                    if (flag == true)
+                    if (flag) 
                     {
+                        flag = false;
                         for (int k = 1; k <= num_config; k++)
                         {
-                            flag = false;
-                            if (config_matr[k][item] && data_workload[k] <= C_k[k])
+                            if (config_matr[k][item] && data_workload[k] < C_k[k])
                             {
                                 flag = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (flag == true)
+                    {
+                        // find feasible location
+                        bin_sum.insert(bin_sum.begin() + location, Job_Time[item]);
+                        for (int i = 1; i <= nj; i++)
+                        {
+                            if (X_copy_2[i] >= location)
+                            {
+                                X_copy_2[i]++;
+                            }
+                        }
+                        X_copy_2[item] = location;
+                        X_copy_2[0]++;
+                    
+                    
+                        for (int k = 1; k <= num_config; k++)
+                        {
+                            if (config_matr[k][item] && data_workload[k] < C_k[k])
+                            {
                                 Y_copy_2.insert(Y_copy_2.begin() + location, k);
                                 data_workload[k]++;
-                                bin_sum.insert(bin_sum.begin() + location, Job_Time[item]);
-                                for (int i = 1; i <= nj; i++)
-                                {
-                                    if (X_copy_2[i] >= location) X_copy_2[i]++;
-                                }
-                                X_copy_2[item] = location;
-                                X_copy_2[0]++;
                                 break;
                             }
                         }
