@@ -8,9 +8,20 @@ The proposed algorithms are coded in C++ and run in a single thread. All MIP for
 
 If you find any problem, please feel free to contact with taohanqiao19@nudt.edu.cn
 
+Below is the BibTex for citing this work.
+
+@article{FTSP2025,
+title = {Flight test scheduling: A generic model, lower bounds, and iterated local search},
+journal = {European Journal of Operational Research},
+year = {2025},
+issn = {0377-2217},
+doi = {https://doi.org/10.1016/j.ejor.2025.06.001},
+author = {Hanqiao Tao and Guopeng Song and Roel Leus and Zhe Liang and Jiang Jiang}
+}
+
 **References**
 
-[1] Tao, H., et al. Flight test scheduling: A generic model, lower bounds, and iterated local search (to appear).
+[1] Tao, H., et al. Flight test scheduling: A generic model, lower bounds, and iterated local search (doi: https://doi.org/10.1016/j.ejor.2025.06.001).
 
 [2] Pereira, J. (2016). Procedures for the bin packing problem with precedence constraints. European Journal of Operational Research, 250, 794–806.
 
