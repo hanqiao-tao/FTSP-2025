@@ -11,12 +11,19 @@ If you find any problem, please feel free to contact with taohanqiao19@nudt.edu.
 Below is the BibTex for citing this work.
 
 @article{FTSP2025,
+
 title = {Flight test scheduling: A generic model, lower bounds, and iterated local search},
+
 journal = {European Journal of Operational Research},
+
 year = {2025},
+
 issn = {0377-2217},
+
 doi = {https://doi.org/10.1016/j.ejor.2025.06.001},
+
 author = {Hanqiao Tao and Guopeng Song and Roel Leus and Zhe Liang and Jiang Jiang}
+
 }
 
 **References**
